@@ -6,6 +6,22 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 
+/*<--const appRoutes: Routes = [
+  { path: 'comm', component: CommComponent },
+  { path: 'resi',      component: ResiComponent },
+  {
+    path: 'comm',
+    component: ResiComponent,
+    data: { title: 'Residential' }
+  },
+  { path: '',
+    redirectTo: '/comm',
+    pathMatch: 'full'
+  },
+  { path: '**', component: RatesComponent }
+];
+*/
+
 @NgModule({
   imports: [ BrowserModule,
    FormsModule,
